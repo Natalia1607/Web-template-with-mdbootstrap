@@ -5,6 +5,15 @@ header,
     height: 100%;
 }
 #intro {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
     background-size: cover;
+}
+.top-navbar {
+    background-color: #24355C;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-navbar) {
+        background: #24355C;
+    }
 }
